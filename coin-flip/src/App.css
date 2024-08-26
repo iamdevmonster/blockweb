@@ -1,0 +1,74 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.app {
+  text-align: center;
+}
+
+.header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.main-content {
+  margin: 20px;
+}
+
+.button {
+  background-color: #61dafb;
+  color: #282c34;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #4fa3d1;
+}
+
+.connect-button {
+  margin-bottom: 20px;
+}
+
+.flip-button {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input,
+.select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.input:focus,
+.select:focus {
+  border-color: #61dafb;
+  outline: none;
+}
+
+.footer {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #282c34;
+  color: white;
+}
